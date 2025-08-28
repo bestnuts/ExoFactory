@@ -1,0 +1,1 @@
+execute as @e[type=block_display,tag=entity.blueprint] if score @s id.matched = #id.player V run kill @s

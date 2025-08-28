@@ -1,0 +1,1 @@
+$data merge entity @s {data:{linked_id:$(id)},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[$(translation),0f,$(translation)],scale:[$(hitbox),1f,$(hitbox)]}}

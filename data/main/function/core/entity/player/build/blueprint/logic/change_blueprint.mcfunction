@@ -1,0 +1,2 @@
+function main:core/entity/player/build/blueprint/logic/data_settings
+execute as @e[type=block_display,tag=entity.blueprint] if score @s id.matched = #id.player V run function main:core/entity/player/build/blueprint/logic/data_change_blueprint with storage mindustry main.instance.build_data

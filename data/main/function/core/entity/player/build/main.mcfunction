@@ -1,0 +1,2 @@
+execute if function api:private/condition/entity/player/selected_item_build run function main:core/entity/player/build/blueprint/holder
+execute if entity @s[tag=player.blueprint] unless function api:private/condition/entity/player/selected_item_build run function main:core/entity/player/build/blueprint/unholder
