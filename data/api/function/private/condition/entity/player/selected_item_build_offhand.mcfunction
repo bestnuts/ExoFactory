@@ -1,0 +1,1 @@
+return run execute if items entity @s weapon.offhand *[minecraft:custom_data~{data:{build_data:{}}}]

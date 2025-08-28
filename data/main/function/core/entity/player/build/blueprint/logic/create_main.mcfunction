@@ -1,0 +1,4 @@
+$execute positioned ~$(translation) ~ ~$(translation) if entity @n[type=item_display,tag=entity.hitbox,dx=$(hitbox),dy=1,dz=$(hitbox)] as @p[tag=this.origin.player] run return run function main:core/entity/player/build/blueprint/logic/throw/exception_blocking
+$execute positioned ~$(translation) ~ ~$(translation) positioned ~-0.125 ~ ~-0.125 unless blocks ~0.125 ~ ~0.125 ~$(hitbox) ~ ~$(hitbox) 0 -62 0 all as @p[tag=this.origin.player] run return run function main:core/entity/player/build/blueprint/logic/throw/exception_blocking
+summon item_display ~0.5 ~0.5 ~0.5 {Tags:["entity.hitbox","new"],item_display:"head"}
+execute as @n[type=item_display,tag=new] run function main:core/entity/player/build/blueprint/logic/create_entity_setter with storage mindustry main.instance.build_data
