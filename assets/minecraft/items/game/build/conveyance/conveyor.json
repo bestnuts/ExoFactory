@@ -1,0 +1,12 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "minecraft:game/build/conveyance/conveyor",
+		"tints": [
+			{
+				"type": "minecraft:dye",
+				"default": 13224409
+			}
+		]
+	}
+}
