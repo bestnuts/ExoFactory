@@ -1,1 +1,1 @@
-$give @s stick[minecraft:item_name=$(name),minecraft:item_model="$(model)",minecraft:custom_data={id:$(id),type:$(type),data:$(args)}]
+$summon item ~ ~ ~ {Item:{id:"minecraft:stick",count:1,components:{"minecraft:item_name":$(name),"minecraft:item_model":"$(model)","minecraft:custom_data":{id:$(id),type:$(type),data:$(args)}}}}

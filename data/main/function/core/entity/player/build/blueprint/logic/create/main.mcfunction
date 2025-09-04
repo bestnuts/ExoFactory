@@ -1,4 +1,6 @@
-$execute positioned ~$(translation) ~ ~$(translation) if entity @n[type=item_display,tag=entity.hitbox,dx=$(hitbox),dy=1,dz=$(hitbox)] as @p[tag=this.origin.player] run return run function main:core/entity/player/build/blueprint/logic/throw/exception_blocking
-$execute positioned ~$(translation) ~ ~$(translation) positioned ~-0.125 ~ ~-0.125 unless blocks ~0.125 ~ ~0.125 ~$(hitbox) ~ ~$(hitbox) 0 -62 0 all as @p[tag=this.origin.player] run return run function main:core/entity/player/build/blueprint/logic/throw/exception_blocking
+$function api:private/logger/debug {message:"translation : $(translation) hitbox : $(hitbox)"}
+$execute positioned ~$(translation) ~ ~$(translation) if block ~ ~-1 ~ #minecraft:air as @p[tag=this.origin.player] run return run function main:core/entity/player/build/blueprint/logic/throw/exception_ground_air
+$execute positioned ~$(translation) ~ ~$(translation) if entity @n[type=item_display,tag=entity.hitbox,dx=$(hitbox),dy=1,dz=$(hitbox)] as @p[tag=this.origin.player] run return run function main:core/entity/player/build/blueprint/logic/throw/exception_blocking_object
+$execute positioned ~$(translation) ~ ~$(translation) positioned ~-0.125 ~ ~-0.125 unless blocks ~0.125 ~ ~0.125 ~$(hitbox) ~ ~$(hitbox) 0 -62 0 all as @p[tag=this.origin.player] run return run function main:core/entity/player/build/blueprint/logic/throw/exception_blocking_block
 summon item_display ~0.5 ~0.5 ~0.5 {Tags:["entity.hitbox","entity.build","new"],item_display:"head"}
 execute as @n[type=item_display,tag=new] run function main:core/entity/player/build/blueprint/logic/create/entity_setter with storage exo main.instance.build_data

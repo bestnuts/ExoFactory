@@ -1,0 +1,2 @@
+$summon item_display ~ ~ ~ {item_display:"ground",item:{id:"$(id)",count:$(count),components:$(components)},Tags:["entity.item","new"]}
+execute as @n[type=item_display,tag=new] run function main:core/entity/item/display/entity_setter

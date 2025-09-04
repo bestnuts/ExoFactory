@@ -1,0 +1,1 @@
+data modify storage exo main.instance.control_data set from entity @s data.control_data

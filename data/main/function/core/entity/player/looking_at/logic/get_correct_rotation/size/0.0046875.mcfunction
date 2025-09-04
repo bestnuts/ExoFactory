@@ -1,0 +1,25 @@
+data merge entity @n[type=interaction,tag=raycasting.correct_rotation] {width:0.0046875f,height:0.0046875f}
+tp @n[type=interaction,tag=raycasting.correct_rotation] ~ ~ ~
+execute if predicate api:entity/player/raycasting/get_correct_rotation positioned as @n[type=interaction,tag=raycasting.correct_rotation] positioned ~-0.001171875 ~ ~-0.001171875 run function main:core/entity/player/looking_at/logic/get_correct_rotation/size/0.00234375
+execute if predicate api:entity/player/raycasting/get_correct_rotation run return 0
+tp @n[type=interaction,tag=raycasting.correct_rotation] ~0.0046875 ~ ~
+execute if predicate api:entity/player/raycasting/get_correct_rotation positioned as @n[type=interaction,tag=raycasting.correct_rotation] positioned ~-0.001171875 ~ ~-0.001171875 run function main:core/entity/player/looking_at/logic/get_correct_rotation/size/0.00234375
+execute if predicate api:entity/player/raycasting/get_correct_rotation run return 0
+tp @n[type=interaction,tag=raycasting.correct_rotation] ~ ~ ~0.0046875
+execute if predicate api:entity/player/raycasting/get_correct_rotation positioned as @n[type=interaction,tag=raycasting.correct_rotation] positioned ~-0.001171875 ~ ~-0.001171875 run function main:core/entity/player/looking_at/logic/get_correct_rotation/size/0.00234375
+execute if predicate api:entity/player/raycasting/get_correct_rotation run return 0
+tp @n[type=interaction,tag=raycasting.correct_rotation] ~0.0046875 ~ ~0.0046875
+execute if predicate api:entity/player/raycasting/get_correct_rotation positioned as @n[type=interaction,tag=raycasting.correct_rotation] positioned ~-0.001171875 ~ ~-0.001171875 run function main:core/entity/player/looking_at/logic/get_correct_rotation/size/0.00234375
+execute if predicate api:entity/player/raycasting/get_correct_rotation run return 0
+tp @n[type=interaction,tag=raycasting.correct_rotation] ~ ~0.0046875 ~
+execute if predicate api:entity/player/raycasting/get_correct_rotation positioned as @n[type=interaction,tag=raycasting.correct_rotation] positioned ~-0.001171875 ~ ~-0.001171875 run function main:core/entity/player/looking_at/logic/get_correct_rotation/size/0.00234375
+execute if predicate api:entity/player/raycasting/get_correct_rotation run return 0
+tp @n[type=interaction,tag=raycasting.correct_rotation] ~0.0046875 ~0.0046875 ~
+execute if predicate api:entity/player/raycasting/get_correct_rotation positioned as @n[type=interaction,tag=raycasting.correct_rotation] positioned ~-0.001171875 ~ ~-0.001171875 run function main:core/entity/player/looking_at/logic/get_correct_rotation/size/0.00234375
+execute if predicate api:entity/player/raycasting/get_correct_rotation run return 0
+tp @n[type=interaction,tag=raycasting.correct_rotation] ~ ~0.0046875 ~0.0046875
+execute if predicate api:entity/player/raycasting/get_correct_rotation positioned as @n[type=interaction,tag=raycasting.correct_rotation] positioned ~-0.001171875 ~ ~-0.001171875 run function main:core/entity/player/looking_at/logic/get_correct_rotation/size/0.00234375
+execute if predicate api:entity/player/raycasting/get_correct_rotation run return 0
+tp @n[type=interaction,tag=raycasting.correct_rotation] ~0.0046875 ~0.0046875 ~0.0046875
+execute if predicate api:entity/player/raycasting/get_correct_rotation positioned as @n[type=interaction,tag=raycasting.correct_rotation] positioned ~-0.001171875 ~ ~-0.001171875 run function main:core/entity/player/looking_at/logic/get_correct_rotation/size/0.00234375
+execute if predicate api:entity/player/raycasting/get_correct_rotation run return 0
