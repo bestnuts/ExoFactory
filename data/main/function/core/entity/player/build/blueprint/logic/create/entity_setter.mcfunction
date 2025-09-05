@@ -6,3 +6,4 @@ data modify entity @s data.control_data set from storage exo main.instance.contr
 data modify entity @s data.build_data set from storage exo main.instance.build_data
 scoreboard players operation @s timestamp = #gametime V
 $scoreboard players add @s timestamp $(time)
+function main:core/entity/player/build/blueprint/logic/create/place/main with storage exo main.instance.build_data.place
