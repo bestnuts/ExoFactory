@@ -1,0 +1,1 @@
+execute if entity @s[tag=entity.build] run function main:core/entity/object/shared/build
