@@ -1,0 +1,1 @@
+return run execute unless block ~ ~-1 ~ #minecraft:air unless block ~1 ~-1 ~ #minecraft:air unless block ~ ~-1 ~1 #minecraft:air unless block ~1 ~-1 ~1 #minecraft:air unless block ~2 ~-1 ~ #minecraft:air unless block ~2 ~-1 ~1 #minecraft:air unless block ~2 ~-1 ~2 #minecraft:air unless block ~1 ~-1 ~2 #minecraft:air unless block ~ ~-1 ~2 #minecraft:air

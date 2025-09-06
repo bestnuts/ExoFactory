@@ -1,0 +1,1 @@
+return run execute unless block ~ ~-1 ~ #api:object_global unless block ~1 ~-1 ~ #api:object_global unless block ~ ~-1 ~1 #api:object_global unless block ~1 ~-1 ~1 #api:object_global

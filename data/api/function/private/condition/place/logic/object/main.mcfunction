@@ -1,0 +1,1 @@
+$summon interaction ~ ~$(translation) ~ {Tags:["entity.hitbox","new"],height:$(scale),width:$(scale)}

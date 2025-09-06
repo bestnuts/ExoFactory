@@ -1,0 +1,1 @@
+$execute store result storage exo main.instance.build_data.offset float $(offset) run scoreboard players get #blueprint.hitbox V
