@@ -1,5 +1,3 @@
-item replace entity @s weapon.mainhand from entity @s weapon.offhand
-item replace entity @s weapon.offhand with air
 data remove storage exo main.instance.info_data
 data modify storage exo main.instance.build_data set from entity @s SelectedItem.components.minecraft:custom_data.data.build_data
 data modify storage exo main.instance.build_data.model set from entity @s SelectedItem.components.minecraft:item_model

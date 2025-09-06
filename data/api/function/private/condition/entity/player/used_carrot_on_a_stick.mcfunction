@@ -1,0 +1,1 @@
+return run execute if score @s player.used.carrot_on_a_stick matches 1..
