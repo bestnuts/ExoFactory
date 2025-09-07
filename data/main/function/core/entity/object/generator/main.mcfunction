@@ -1,0 +1,4 @@
+function main:core/entity/object/generator/data/load
+function main:core/entity/object/shared/logic/control/research_run with storage exo main.instance.control_data
+function main:core/entity/object/generator/logic/work
+function main:core/entity/object/generator/data/save

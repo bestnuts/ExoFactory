@@ -1,0 +1,3 @@
+tag @s remove this.origin.object
+function main:core/entity/object/shared/logic/info/setup
+execute as @e[type=text_display,tag=display.info] if score @s id.matched = #id.player V run data modify entity @s text set from storage exo main.instance.info_data.text
