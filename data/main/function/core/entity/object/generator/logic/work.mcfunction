@@ -1,1 +1,1 @@
-execute if score #generator.boolean V matches 1 if score #generator.storage.save V < #generator.save V run function main:core/entity/object/generator/logic/generating
+$execute if score #generator.$(type).boolean V matches 1 if score #generator.storage.$(type).save V < #generator.$(type).save V run function main:core/entity/object/generator/logic/generating {type:"$(type)"}

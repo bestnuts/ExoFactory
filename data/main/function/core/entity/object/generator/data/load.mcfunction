@@ -1,6 +1,6 @@
 data modify storage exo main.instance.control_data set from entity @s data.control_data
-execute store result score #generator.output V run data get storage exo main.instance.control_data.generator.output
-execute store result score #generator.save V run data get storage exo main.instance.control_data.generator.save
-execute store result score #generator.storage.output V run data get storage exo main.instance.control_data.storage.generator.output
-execute store result score #generator.storage.save V run data get storage exo main.instance.control_data.storage.generator.save
-scoreboard players set #generator.boolean V 0
+data modify storage exo main.instance.value.name set value "load"
+data modify storage exo main.instance.control_data.type set from storage exo main.instance.control_data.process.type
+execute store result score #do V run data get storage exo main.instance.control_data.type
+execute store result storage exo main.instance.value.index int 1 run scoreboard players remove #do V 1
+execute if score #do V matches 0.. run function main:core/entity/object/generator/data/logic/loop_index with storage exo main.instance.value
