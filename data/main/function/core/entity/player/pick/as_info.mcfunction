@@ -1,5 +1,6 @@
-scoreboard players set #boolean V 1
-execute if score @s id.object = #player.linked_object V run return run tag @s[tag=entity.object] add this.origin.object
+execute if score #index V matches 2 run return fail
+scoreboard players set #index V 1
+execute if score @s id.object = #player.linked_object V run return run function main:core/entity/player/pick/info/check_linked
 scoreboard players operation #id.object.item V = @s id.object
 execute as @p[tag=this.origin.player] run function main:core/entity/player/pick/player_setter
 execute as @e[type=text_display,tag=display.info] if score @s id.matched = #id.player V run function main:core/entity/shared/utils/kill
