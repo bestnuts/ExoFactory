@@ -1,3 +1,2 @@
 execute if function api:private/condition/entity/player/selected_item_build_mainhand run function main:core/entity/player/build/blueprint/holder
-execute if function api:private/condition/entity/player/used_carrot_on_a_stick run function main:core/entity/player/build/blueprint/click
 execute if entity @s[tag=player.blueprint] unless function api:private/condition/entity/player/selected_item_build_mainhand run function main:core/entity/player/build/blueprint/unholder
