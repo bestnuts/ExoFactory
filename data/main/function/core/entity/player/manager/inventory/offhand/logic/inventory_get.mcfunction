@@ -1,1 +1,0 @@
-$data modify storage exo main.instance.value.inventory set from entity @s Inventory[$(index)]
