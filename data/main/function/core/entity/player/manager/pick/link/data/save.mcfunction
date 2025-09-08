@@ -1,0 +1,2 @@
+execute store result storage exo main.instance.storage.data.linked_object.[0].id int 1 run scoreboard players get #storage.first_linked_object.id V
+execute store result storage exo main.instance.storage.data.linked_object.[1].id int 1 run scoreboard players get #storage.last_linked_object.id V

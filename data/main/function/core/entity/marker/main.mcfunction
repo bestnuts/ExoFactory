@@ -1,0 +1,1 @@
+execute if entity @s[tag=entity.storage] run return run function main:core/entity/marker/storage/main

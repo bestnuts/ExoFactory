@@ -1,0 +1,2 @@
+execute if score #storage.first_linked_object.id V = @s player.linked_object run data modify storage exo main.instance.storage.data.linked_object.[0].font set from storage exo main.instance.linked_object.info_data.font
+execute if score #storage.last_linked_object.id V = @s player.linked_object run data modify storage exo main.instance.storage.data.linked_object.[1].font set from storage exo main.instance.linked_object.info_data.font
