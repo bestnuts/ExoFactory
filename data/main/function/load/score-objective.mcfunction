@@ -12,7 +12,7 @@ scoreboard objectives add id.item dummy
 scoreboard objectives add id.matched dummy
 
 scoreboard objectives add player.used.carrot_on_a_stick used:carrot_on_a_stick
+scoreboard objectives add player.boolean.last_item dummy
 scoreboard objectives add player.linked_object dummy
-
 scoreboard objectives add player.first.linked_pick_object dummy
 scoreboard objectives add player.last.linked_pick_object dummy
