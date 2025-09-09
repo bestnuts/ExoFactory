@@ -1,0 +1,1 @@
+$execute if score #generator.$(type).boolean V matches 1 if score #generator.storage.$(type).save V matches 1.. run function main:core/entity/object/storage/logic/saving {type:"$(type)"}
