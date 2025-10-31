@@ -1,0 +1,2 @@
+execute as @e[type=item_display,tag=entity.object] run function api:private/condition/entity/object/is_electric_linked_check
+return run function api:private/condition/entity/player/logic/linked_transmitter_io_check

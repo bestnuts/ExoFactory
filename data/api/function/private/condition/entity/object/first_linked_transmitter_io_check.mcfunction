@@ -1,0 +1,2 @@
+$execute store result score #condition.first.transmitter.input V run function api:private/condition/entity/object/is_$(type)_input
+$execute store result score #condition.first.transmitter.output V run function api:private/condition/entity/object/is_$(type)_output

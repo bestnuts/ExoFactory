@@ -1,0 +1,1 @@
+return run execute if data entity @s {data:{control_data:{storage:{electric:{input:true}}}}}
