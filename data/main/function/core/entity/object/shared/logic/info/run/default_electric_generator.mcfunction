@@ -1,4 +1,4 @@
-function main:core/entity/object/generator/data/load
+function main:core/entity/object/shared/data/control/generic/load
 data modify storage exo main.instance.info_data.text append value [\
 {text:"\n수용량: "},\
 {score:{name:"#generator.storage.electric.save",objective:"V"}},\
