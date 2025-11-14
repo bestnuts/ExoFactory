@@ -1,0 +1,1 @@
+function main:core/entity/player/manager/pick/logic/transmitter/main

@@ -1,0 +1,1 @@
+return run execute if data storage exo {main:{instance:{value:{type:{is_output:true}}}}}

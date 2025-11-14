@@ -1,1 +1,1 @@
-data modify storage exo main.instance.database set value {linked_object:[{id:0,font:"\uE001"},{id:0,font:"\uE001"}]}
+data modify storage exo main.instance.database set value {linked_object:[{id:0,data:{info_data:{font:"\uE001"}}},{id:0,data:{info_data:{font:"\uE001"}}}]}

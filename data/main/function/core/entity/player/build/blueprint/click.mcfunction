@@ -1,6 +1,7 @@
 data remove storage exo main.instance.info_data
 data modify storage exo main.instance.build_data set from entity @s SelectedItem.components.minecraft:custom_data.data.build_data
 data modify storage exo main.instance.build_data.model set from entity @s SelectedItem.components.minecraft:item_model
+execute store result storage exo main.instance.build_data.pos.y int 1 run scoreboard players get #blueprint.pos.y V
 data modify storage exo main.instance.control_data set from entity @s SelectedItem.components.minecraft:custom_data.data.control_data
 data modify storage exo main.instance.info_data set from entity @s SelectedItem.components.minecraft:custom_data.data.info_data
 scoreboard players reset @s player.used.carrot_on_a_stick

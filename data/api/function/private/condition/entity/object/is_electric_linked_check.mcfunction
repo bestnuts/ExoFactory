@@ -1,2 +1,2 @@
-execute if score @s player.linked_object = #storage.first_linked_object.id V run return run function api:private/condition/entity/object/first_linked_transmitter_io_check {type:"electric"}
-execute if score @s player.linked_object = #storage.last_linked_object.id V run return run function api:private/condition/entity/object/last_linked_transmitter_io_check {type:"electric"}
+function api:private/condition/entity/object/first_linked_transmitter_io_check {type:"electric"}
+function api:private/condition/entity/object/last_linked_transmitter_io_check {type:"electric"}

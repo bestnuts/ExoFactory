@@ -1,0 +1,2 @@
+execute if entity @s[tag=player.transmitter] run return 1
+execute if function api:private/condition/entity/player/linked_transmitter_electric run return run function main:core/entity/player/manager/pick/logic/transmitter/type/electric
