@@ -1,0 +1,1 @@
+return run execute if items entity @s weapon.mainhand *[minecraft:custom_data~{data:{pick_data:{run:"transmitter"}}}]

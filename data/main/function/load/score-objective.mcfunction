@@ -8,6 +8,7 @@ scoreboard objectives add timestamp dummy
 
 scoreboard objectives add id.player dummy
 scoreboard objectives add id.object dummy
+scoreboard objectives add id.transmitter dummy
 scoreboard objectives add id.item dummy
 scoreboard objectives add id.matched dummy
 
