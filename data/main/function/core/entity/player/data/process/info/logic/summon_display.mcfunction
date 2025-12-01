@@ -1,2 +1,3 @@
+function main:core/entity/player/data/process/info/logic/remove_display
 summon text_display ~ ~0.5 ~ {Tags:["display.info","new"],billboard:"center",see_through:0b,alignment:"center",background:0}
 execute as @n[type=text_display,tag=new] run function main:core/entity/player/data/process/info/logic/entity_setter
