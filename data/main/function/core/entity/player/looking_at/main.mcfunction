@@ -1,2 +1,0 @@
-execute anchored eyes positioned ^ ^ ^ positioned ~ ~-0.15 ~ run function main:core/entity/player/looking_at/logic/get_correct_rotation
-execute rotated as @n[type=interaction,tag=raycasting.correct_rotation] run function main:core/entity/player/looking_at/logic/loop/start

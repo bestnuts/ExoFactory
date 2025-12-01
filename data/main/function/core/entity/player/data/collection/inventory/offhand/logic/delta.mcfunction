@@ -1,0 +1,2 @@
+function main:core/entity/player/data/collection/inventory/offhand/logic/storage
+function main:core/entity/player/data/collection/inventory/offhand/logic/replace with storage exo main.instance.value.item

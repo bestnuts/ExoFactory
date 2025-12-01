@@ -15,4 +15,3 @@ scoreboard objectives add id.matched dummy
 scoreboard objectives add player.used.carrot_on_a_stick used:carrot_on_a_stick
 scoreboard objectives add player.custom.leave_game custom:leave_game
 scoreboard objectives add player.boolean.last_item dummy
-scoreboard objectives add player.linked_object dummy

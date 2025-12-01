@@ -1,1 +1,0 @@
-execute as @n[type=item_display,tag=this.origin.object] run function main:core/entity/player/manager/pick/info/update_as_object

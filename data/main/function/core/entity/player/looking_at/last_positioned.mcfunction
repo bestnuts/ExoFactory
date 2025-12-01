@@ -1,2 +1,0 @@
-function main:core/entity/player/manager/pick/main
-execute positioned ~ ~0.55 ~ as @e[type=block_display,tag=entity.blueprint] if score @s id.matched = #id.player V align xyz run function main:core/entity/player/build/blueprint/logic/teleport_blueprint
