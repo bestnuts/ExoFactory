@@ -1,0 +1,1 @@
+data modify storage exo main.instance.storage.data.linked_object.[1] set value {id:0,data:{info_data:{font:"\uE001"}}}

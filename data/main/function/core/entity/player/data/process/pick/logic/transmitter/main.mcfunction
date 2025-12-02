@@ -1,0 +1,3 @@
+execute if score #player.linked_object.change V matches 1 run return run function main:core/entity/player/build/transmitter/unholder
+execute if entity @s[tag=player.transmitter] run return 1
+execute if function api:private/condition/entity/player/linked_transmitter_electric run return run function main:core/entity/player/data/process/pick/logic/transmitter/type/electric

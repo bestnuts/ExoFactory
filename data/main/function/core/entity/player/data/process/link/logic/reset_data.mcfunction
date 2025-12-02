@@ -1,0 +1,2 @@
+execute if score #storage.first_linked_object.id V matches 0 run function main:core/entity/player/data/process/link/logic/reset_first
+execute if score #storage.last_linked_object.id V matches 0 run function main:core/entity/player/data/process/link/logic/reset_last

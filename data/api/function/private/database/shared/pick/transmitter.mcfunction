@@ -1,1 +1,1 @@
-function main:core/entity/player/manager/pick/logic/transmitter/main
+function main:core/entity/player/data/process/pick/logic/transmitter/main
