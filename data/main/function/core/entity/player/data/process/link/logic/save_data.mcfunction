@@ -1,0 +1,2 @@
+execute if score #storage.looking_object.id V = #storage.first_linked_object.id V run return run data modify storage exo main.instance.storage.data.linked_object.[0].data set from storage exo main.instance.storage.data.looking_object.data
+execute if score #storage.looking_object.id V = #storage.last_linked_object.id V run return run data modify storage exo main.instance.storage.data.linked_object.[1].data set from storage exo main.instance.storage.data.looking_object.data

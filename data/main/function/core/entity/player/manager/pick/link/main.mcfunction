@@ -1,5 +1,0 @@
-execute unless function main:core/entity/player/manager/pick/link/logic/check_linked run return run function main:core/entity/player/manager/pick/link/logic/init_font
-execute unless score #player.linked_object V = #storage.last_linked_object.id V if score #storage.first_linked_object.id V matches 0 run scoreboard players operation #storage.first_linked_object.id V = #player.linked_object V
-execute unless score #player.linked_object V = #storage.first_linked_object.id V if score #storage.last_linked_object.id V matches 0 run scoreboard players operation #storage.last_linked_object.id V = #player.linked_object V
-function main:core/entity/player/manager/pick/link/data/save
-execute as @e[type=item_display,tag=entity.object] run function main:core/entity/player/manager/pick/link/logic/insert_font

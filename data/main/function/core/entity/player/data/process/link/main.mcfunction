@@ -1,0 +1,1 @@
+execute if function api:private/condition/entity/player/used_carrot_on_a_stick if function main:core/entity/player/data/process/link/logic/condition_object run function main:core/entity/player/data/process/link/logic/update_link

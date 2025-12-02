@@ -1,2 +1,0 @@
-execute if score @s id.object = #storage.first_linked_object.id V run return run data modify storage exo main.instance.storage.data.linked_object.[0].data set from entity @s data
-execute if score @s id.object = #storage.last_linked_object.id V run return run data modify storage exo main.instance.storage.data.linked_object.[1].data set from entity @s data
