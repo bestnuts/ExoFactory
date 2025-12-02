@@ -1,0 +1,1 @@
+execute if function api:private/condition/entity/player/used_carrot_on_a_stick if score #id.player V = #player.looking_object.matched.id V run return run function main:core/entity/player/data/process/pick/logic/transmitter/shared/place/success_run

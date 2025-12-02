@@ -1,0 +1,2 @@
+$summon block_display $(x1) $(y) $(z1) {Tags:["entity.transmitter","new"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.0625f,0f,0f],scale:[0.125f,0.125f,$(length)]},block_state:{Name:"minecraft:light_gray_concrete"}}
+$execute as @n[type=block_display,tag=entity.transmitter,tag=new] at @s facing $(x2) $(y) $(z2) run function main:core/entity/player/data/process/pick/logic/transmitter/shared/place/entity_setter

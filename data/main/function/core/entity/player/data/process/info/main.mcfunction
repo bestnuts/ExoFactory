@@ -1,2 +1,2 @@
-execute if score #player.linked_object.id V matches 0 run return run function main:core/entity/player/data/process/info/logic/reset_looking
+execute if score #player.looking_object.id V matches 0 run return run function main:core/entity/player/data/process/info/logic/reset_looking
 execute unless score #storage.old.looking_object.id V = #storage.looking_object.id V as @e[type=item_display,tag=entity.info] if score @s id.object = #storage.looking_object.id V at @s run function main:core/entity/player/data/process/info/logic/summon_display

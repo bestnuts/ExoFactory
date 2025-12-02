@@ -1,1 +1,1 @@
-function main:core/entity/player/data/process/pick/logic/transmitter/main
+function main:core/entity/player/data/process/pick/logic/transmitter/main with storage exo main.instance.player.item.minecraft:custom_data.data.pick_data

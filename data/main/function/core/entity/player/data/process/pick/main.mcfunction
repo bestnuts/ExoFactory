@@ -1,1 +1,1 @@
-execute if function api:private/condition/entity/player/selected_item_pick_mainhand run function main:core/entity/player/data/process/pick/logic/research_run with entity @s SelectedItem.components.minecraft:custom_data.data.pick_data
+execute if function api:private/condition/entity/player/selected_item_pick_mainhand run function main:core/entity/player/data/process/pick/logic/research_run with storage exo main.instance.player.item.minecraft:custom_data.data.pick_data
