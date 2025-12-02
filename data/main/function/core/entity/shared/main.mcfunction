@@ -4,4 +4,3 @@ execute if entity @s[type=player] run return run function main:core/entity/playe
 execute if entity @s[type=marker] run return run function main:core/entity/marker/main
 execute if entity @s[type=item_display] run return run function main:core/entity/object/shared/main
 execute if entity @s[type=item] run return run function main:core/entity/item/main
-execute if entity @s[type=text_display] run return run function main:core/entity/text/main

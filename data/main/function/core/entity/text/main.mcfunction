@@ -1,1 +1,0 @@
-execute if entity @s[tag=display.info] run return run function main:core/entity/text/info/main
