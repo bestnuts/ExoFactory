@@ -1,1 +1,0 @@
-function main:core/entity/player/build/transmitter/logic/create/data_settings

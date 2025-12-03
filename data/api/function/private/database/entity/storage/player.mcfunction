@@ -1,1 +1,1 @@
-data modify storage exo main.instance.database set value {looking_object:{id:0,data:{}},linked_object:[{id:0,data:{info_data:{font:"\uE001"}}},{id:0,data:{info_data:{font:"\uE001"}}}]}
+data modify storage exo main.instance.database set value {item:{last_id:0},looking_object:{id:0,data:{}},linked_object:[{id:0,data:{info_data:{font:"\uE001"}}},{id:0,data:{info_data:{font:"\uE001"}}}]}

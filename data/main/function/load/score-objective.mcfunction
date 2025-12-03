@@ -12,6 +12,9 @@ scoreboard objectives add id.transmitter dummy
 scoreboard objectives add id.item dummy
 scoreboard objectives add id.matched dummy
 
+scoreboard objectives add id.transmitter.first_linked dummy
+scoreboard objectives add id.transmitter.last_linked dummy
+
 scoreboard objectives add player.used.carrot_on_a_stick used:carrot_on_a_stick
 scoreboard objectives add player.custom.leave_game custom:leave_game
 scoreboard objectives add player.boolean.last_item dummy

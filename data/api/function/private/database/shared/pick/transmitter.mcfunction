@@ -1,1 +1,1 @@
-function main:core/entity/player/data/process/pick/logic/transmitter/main with storage exo main.instance.player.item.minecraft:custom_data.data.pick_data
+execute if function api:private/condition/entity/player/can_transmitter_place_provide run function main:core/entity/player/data/process/pick/logic/transmitter/main with storage exo main.instance.player.item.minecraft:custom_data.data.pick_data

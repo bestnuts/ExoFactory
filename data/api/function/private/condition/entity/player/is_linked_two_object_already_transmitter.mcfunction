@@ -1,0 +1,3 @@
+execute unless function api:private/condition/entity/player/has_linked_two_object run return fail
+execute as @e[type=block_display,tag=entity.transmitter] run return run function api:private/condition/entity/player/logic/linked_transmitter_already_check
+return 1
