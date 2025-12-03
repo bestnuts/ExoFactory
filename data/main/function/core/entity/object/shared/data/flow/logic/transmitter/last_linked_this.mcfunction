@@ -1,0 +1,2 @@
+scoreboard players operation #transmitter.linked.id V = @s id.transmitter.first_linked
+execute as @e[type=item_display] if score @s id.object = #transmitter.linked.id V run return run function main:core/entity/object/shared/data/flow/logic/target/main with storage exo main.instance.value

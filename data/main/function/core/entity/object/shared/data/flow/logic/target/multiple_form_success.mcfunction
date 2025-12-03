@@ -1,0 +1,1 @@
+scoreboard players add #transmitter.table V 1

@@ -7,5 +7,7 @@ execute store result storage exo main.instance.storage.data.looking_object.id in
 scoreboard players operation #storage.old.looking_object.id V = #storage.looking_object.id V
 scoreboard players operation #storage.looking_object.id V = #player.looking_object.id V
 
+execute unless score @s id.object = #player.looking_object.id V run return 1
+
 execute if entity @s[tag=entity.item] run data modify storage exo main.instance.storage.data.looking_object.data set from entity @s item.components.minecraft:custom_data.data.info_data
 execute if entity @s[tag=entity.object] run data modify storage exo main.instance.storage.data.looking_object.data set from entity @s data

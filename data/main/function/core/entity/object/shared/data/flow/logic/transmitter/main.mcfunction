@@ -1,0 +1,4 @@
+execute if function api:private/condition/entity/object/is_transmitter_form_single run function main:core/entity/object/shared/data/flow/logic/transmitter/single_form_settings
+execute if function api:private/condition/entity/object/is_transmitter_form_multiple run function main:core/entity/object/shared/data/flow/logic/transmitter/multiple_form_settings
+execute if score @s id.transmitter.first_linked = #id.object V run function main:core/entity/object/shared/data/flow/logic/transmitter/first_linked_this
+execute if score @s id.transmitter.last_linked = #id.object V run function main:core/entity/object/shared/data/flow/logic/transmitter/last_linked_this

@@ -1,2 +1,2 @@
-scoreboard players set #generator.electric.boolean V 1
+scoreboard players set #origin.control.electric.boolean V 1
 function main:core/entity/object/storage/logic/work {type:"electric"}

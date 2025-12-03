@@ -1,3 +1,3 @@
-$execute store result storage exo main.instance.control_data.storage.$(type).output int 1 run scoreboard players get #generator.storage.$(type).output V
-$execute store result storage exo main.instance.control_data.storage.$(type).save int 1 run scoreboard players get #generator.storage.$(type).save V
+$execute store result storage exo main.instance.control_data.storage.$(type).make int 1 run scoreboard players get #$(prefix)control.storage.$(type).make V
+$execute store result storage exo main.instance.control_data.storage.$(type).save int 1 run scoreboard players get #$(prefix)control.storage.$(type).save V
 $data modify entity @s data.control_data.storage.$(type) set from storage exo main.instance.control_data.storage.$(type)

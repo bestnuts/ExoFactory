@@ -1,0 +1,1 @@
+scoreboard players set #transmitter.index V 0

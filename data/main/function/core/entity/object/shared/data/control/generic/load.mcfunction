@@ -1,4 +1,5 @@
 data modify storage exo main.instance.control_data set from entity @s data.control_data
+$data modify storage exo main.instance.value.prefix set value "$(prefix)"
 data modify storage exo main.instance.value.name set value "load"
 data modify storage exo main.instance.control_data.type set from storage exo main.instance.control_data.process.type
 execute store result score #do V run data get storage exo main.instance.control_data.type
