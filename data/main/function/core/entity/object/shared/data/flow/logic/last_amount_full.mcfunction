@@ -1,0 +1,1 @@
+$scoreboard players operation #origin.control.storage.$(type).save V += #origin.control.$(type).output V
