@@ -1,0 +1,13 @@
+{
+    "providers": [
+      {
+        "type": "space",
+        "advances": {
+          "\uF800": 1.35
+        }
+      },
+      {"type":"bitmap","file":"minecraft:game/gui/player/dialog_empty.png",           "ascent":12,"height":32,"chars":["\uE000"]},
+      {"type":"bitmap","file":"minecraft:game/gui/player/dialog_destruct.png",        "ascent":12,"height":32,"chars":["\uE001"]},
+      {"type":"bitmap","file":"minecraft:game/gui/player/dialog_unlink.png",          "ascent":12,"height":32,"chars":["\uE002"]}
+    ]
+  }
