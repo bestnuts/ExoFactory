@@ -1,1 +1,0 @@
-$tellraw @a[tag=logger] ["",{text:"[DEBUG]: ",color:gold,bold:true},"$(message)"]

@@ -1,4 +1,4 @@
-$function api:private/logger/debug {message:"translation : $(translation) hitbox : $(hitbox) scale : $(scale) offset : $(offset)"}
+$function api:private/logger/with {with:{type:debug,message:"translation : $(translation) hitbox : $(hitbox) scale : $(scale) offset : $(offset)"}}
 execute as @e[type=item_display,tag=entity.object,distance=..10] at @s run function api:private/condition/place/logic/object/main with entity @s data.build_data
 $execute positioned ~$(translation) ~ ~$(translation) store result score #boolean V run function api:private/condition/place/$(condition) with storage exo main.instance.build_data
 kill @e[type=interaction,tag=entity.hitbox,tag=new]

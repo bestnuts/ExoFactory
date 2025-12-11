@@ -1,0 +1,1 @@
+data modify storage exo main.instance.value.logger.prefix set value {text:"",color:"yellow"}

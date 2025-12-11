@@ -1,0 +1,2 @@
+$function api:private/logger/type/$(type)
+tellraw @a[tag=logger] ["",[{storage:"exo",nbt:"main.instance.value.logger.prefix",interpret:true},"[",{storage:"exo",nbt:"main.instance.value.logger.pack"},".",{storage:"exo",nbt:"main.instance.value.logger.type"},"] > "],{storage:"exo",nbt:"main.instance.value.logger.message",interpret:true}]
