@@ -1,3 +1,0 @@
-execute if function api:private/condition/entity/player/selected_item_build_mainhand run function main:core/entity/player/build/blueprint/holder
-execute if entity @s[tag=player.blueprint] unless function api:private/condition/entity/player/selected_item_build_mainhand run function main:core/entity/player/build/blueprint/unholder
-execute if entity @s[tag=player.transmitter] unless function api:private/condition/entity/player/selected_item_transmitter_pick_mainhand run function main:core/entity/player/build/transmitter/unholder

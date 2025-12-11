@@ -1,0 +1,1 @@
+data modify storage exo main.instance.storage.data.dialog.data append value {text:{text:"\uE002",color:"gray"},run:"say unlink"}

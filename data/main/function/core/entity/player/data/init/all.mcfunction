@@ -6,3 +6,4 @@ scoreboard players operation #id.player V = @s id.player
 scoreboard players set #player.looking_object.id V 0
 scoreboard players set #player.looking_object.linked V 0
 scoreboard players set #storage.boolean V 1
+function main:core/entity/player/data/init/permission

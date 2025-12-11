@@ -1,0 +1,1 @@
+execute unless score #player.item.id V = #blueprint.linked_id V run function main:core/entity/player/manager/holder/build/blueprint/logic/change_blueprint

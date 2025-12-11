@@ -1,1 +1,1 @@
-execute if function api:private/condition/entity/player/used_carrot_on_a_stick run function main:core/entity/player/build/blueprint/click
+execute if function api:private/condition/entity/player/used_carrot_on_a_stick run function main:core/entity/player/manager/holder/build/blueprint/click

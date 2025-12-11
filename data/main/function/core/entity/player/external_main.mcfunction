@@ -1,6 +1,6 @@
 tag @s add this.origin.player
 function main:core/entity/player/data/init/all
-function main:core/entity/player/build/main
+function main:core/entity/player/manager/holder/main
 function main:core/entity/player/data/collection/main
 function main:core/entity/player/data/process/main
 

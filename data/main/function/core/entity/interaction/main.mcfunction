@@ -1,0 +1,1 @@
+execute if entity @s[tag=seat.dialog] run return run function main:core/entity/interaction/seat/dialog/main

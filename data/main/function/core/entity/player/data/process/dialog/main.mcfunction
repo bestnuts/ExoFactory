@@ -1,0 +1,1 @@
+execute if entity @s[tag=!player.dialog,tag=player.offhand] run return run function main:core/entity/player/data/process/dialog/logic/try

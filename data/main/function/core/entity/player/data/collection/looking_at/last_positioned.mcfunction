@@ -1,3 +1,3 @@
 execute if block ~ ~ ~ #api:object_global if entity @s[distance=..3] as @e[type=item_display,tag=entity.info,sort=nearest] if function api:private/condition/entity/info/distance_block_check run function main:core/entity/player/data/process/info/extend/main
 execute unless block ~ ~ ~ #api:object_global if entity @s[distance=..3] as @e[type=item_display,tag=entity.info,sort=nearest] if function api:private/condition/entity/info/distance_entity_check run function main:core/entity/player/data/process/info/extend/main
-execute positioned ~ ~0.55 ~ as @e[type=block_display,tag=entity.blueprint] if score @s id.matched = #id.player V align xyz run function main:core/entity/player/build/blueprint/logic/teleport_blueprint
+execute positioned ~ ~0.55 ~ as @e[type=block_display,tag=entity.blueprint] if score @s id.matched = #id.player V align xyz run function main:core/entity/player/manager/holder/build/blueprint/logic/teleport_blueprint

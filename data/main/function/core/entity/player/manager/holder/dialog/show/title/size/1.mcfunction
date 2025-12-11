@@ -1,0 +1,2 @@
+data modify storage exo main.instance.value.text append from storage exo main.instance.storage.data.dialog.data.[0].text
+execute if score #storage.dialog.index V matches 0 run data modify storage exo main.instance.value.text.[0].color set value "white"

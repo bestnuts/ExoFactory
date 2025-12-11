@@ -1,2 +1,2 @@
-function main:core/entity/player/data/collection/looking_at/main
+execute if score #permission.collection.looking_at V matches 1 run function main:core/entity/player/data/collection/looking_at/main
 function main:core/entity/player/data/collection/inventory/offhand/main

@@ -1,0 +1,1 @@
+data modify storage exo main.instance.storage.data.dialog.data append value {text:{text:"\uE001",color:"gray"},run:"say destruct"}

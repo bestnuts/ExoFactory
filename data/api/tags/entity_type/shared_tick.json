@@ -3,6 +3,7 @@
         "player",
         "marker",
         "item",
-        "item_display"
+        "item_display",
+        "interaction"
     ]
 }

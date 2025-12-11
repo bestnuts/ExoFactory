@@ -1,0 +1,2 @@
+$data modify storage exo main.instance.value.run set from storage exo main.instance.storage.data.dialog.data.[$(index)].run
+function main:core/entity/player/manager/holder/dialog/show/logic/index_run with storage exo main.instance.value

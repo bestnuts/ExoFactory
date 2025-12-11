@@ -1,0 +1,1 @@
+$function main:core/entity/player/manager/holder/build/blueprint/logic/create/place/hitbox/$(range) with storage exo main.instance.build_data.place

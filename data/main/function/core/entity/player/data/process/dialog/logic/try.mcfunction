@@ -1,0 +1,2 @@
+execute if function api:private/condition/entity/player/has_linked_any_object run return run function main:core/entity/player/data/process/dialog/logic/show/main
+return run function api:private/throw/exception_dialog_show_fail
