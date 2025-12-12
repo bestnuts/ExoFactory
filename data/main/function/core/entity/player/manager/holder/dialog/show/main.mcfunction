@@ -1,3 +1,3 @@
-execute if predicate api:entity/player/input/jump run return run function main:core/entity/player/manager/holder/dialog/show/input/jump with storage exo main.instance.storage.data.dialog
+execute if entity @s[tag=player.offhand] run return run function main:core/entity/player/manager/holder/dialog/show/input/offhand with storage exo main.instance.storage.data.dialog
 execute if predicate api:entity/player/input/only/left run return run function main:core/entity/player/manager/holder/dialog/show/input/left
 execute if predicate api:entity/player/input/only/right run return run function main:core/entity/player/manager/holder/dialog/show/input/right

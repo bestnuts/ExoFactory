@@ -1,0 +1,1 @@
+$execute positioned ~ $(offset) ~ run function main:core/entity/object/shared/logic/destruct/hitbox/$(range) with storage exo main.instance.build_data.place

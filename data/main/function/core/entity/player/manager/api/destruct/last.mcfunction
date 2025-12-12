@@ -1,0 +1,2 @@
+execute as @e[type=item_display] if score @s id.object = #storage.last_linked_object.id V at @s run function main:core/entity/object/shared/logic/destruct/external_run
+function main:core/entity/player/data/process/link/logic/reset_last
