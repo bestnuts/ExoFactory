@@ -2,6 +2,6 @@ execute if entity @s[tag=utils.ignore] run return 1
 execute if entity @s[tag=utils.timestamp] run function main:core/entity/shared/utils/timestamp
 execute if entity @s[type=player] run return run function main:core/entity/player/main
 execute if entity @s[type=marker] run return run function main:core/entity/marker/main
-execute if entity @s[type=item_display] run return run function main:core/entity/object/shared/main
+execute if entity @s[type=text_display] run return run function main:core/entity/text/main
 execute if entity @s[type=item] run return run function main:core/entity/item/main
 execute if entity @s[type=interaction] run return run function main:core/entity/interaction/main

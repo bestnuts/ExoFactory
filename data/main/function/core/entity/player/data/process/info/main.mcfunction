@@ -1,2 +1,4 @@
-execute if score #player.looking_object.id V matches 0 run return run function main:core/entity/player/data/process/info/logic/reset_looking
-execute as @e[type=item_display,tag=entity.info] if score @s id.object = #storage.looking_object.id V at @s run function main:core/entity/player/data/process/info/origin_entity_main
+execute unless score #storage.old.looking_object.id V matches 0 unless score #storage.old.looking_object.id V = #player.looking_object.id V run return run function main:core/entity/player/data/process/info/logic/reset_looking
+function main:core/data/object/shared/io/get_data {getter:"scoreboard players get #storage.looking_object.id V",path:"data"}
+function main:core/entity/player/data/process/info/logic/data_settings
+execute unless score #storage.old.looking_object.id V = #storage.looking_object.id V run function main:core/entity/player/data/process/info/logic/summon_display with storage exo main.instance.data.build_data.pos

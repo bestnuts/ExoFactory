@@ -1,2 +1,0 @@
-$execute if score #target.control.storage.$(type).save V < #target.control.$(type).save V run function main:core/entity/object/shared/data/flow/logic/target/single/transform_normal with storage exo main.instance.value
-$execute if score #target.control.storage.$(type).save V > #target.control.$(type).save V run function main:core/entity/object/shared/data/flow/logic/target/single/transform_over with storage exo main.instance.value

@@ -1,0 +1,3 @@
+$execute store result storage exo main.instance.$(path).control_data.storage.$(type).make int 1 run scoreboard players get #$(prefix)control.storage.$(type).make V
+$execute store result storage exo main.instance.$(path).control_data.storage.$(type).save int 1 run scoreboard players get #$(prefix)control.storage.$(type).save V
+$function main:core/data/object/shared/io/set_data {getter:"scoreboard players get #id.temp V",path:$(path)}

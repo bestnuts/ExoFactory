@@ -1,1 +1,0 @@
-$function main:core/entity/object/shared/logic/info/run/$(run)

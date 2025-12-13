@@ -1,0 +1,1 @@
+function main:core/data/object/shared/process/main

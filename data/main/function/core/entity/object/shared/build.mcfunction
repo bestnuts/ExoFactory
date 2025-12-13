@@ -1,1 +1,0 @@
-execute if score @s timestamp <= #gametime V run return run function main:core/entity/object/shared/logic/build/over_time

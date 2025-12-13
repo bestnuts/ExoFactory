@@ -1,0 +1,1 @@
+$function main:core/entity/text/info/run/$(run)

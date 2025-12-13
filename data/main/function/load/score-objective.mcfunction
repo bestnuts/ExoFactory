@@ -11,6 +11,7 @@ scoreboard objectives add id.object dummy
 scoreboard objectives add id.transmitter dummy
 scoreboard objectives add id.item dummy
 scoreboard objectives add id.matched dummy
+scoreboard objectives add id.matched.link dummy
 
 scoreboard objectives add id.transmitter.first_linked dummy
 scoreboard objectives add id.transmitter.last_linked dummy

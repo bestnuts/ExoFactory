@@ -1,3 +1,4 @@
-$execute as @e[type=item_display] if score @s id.object = #storage.last_linked_object.id V run data modify entity @s data.control_data.storage.$(type).transmitter prepend from storage exo main.instance.value.id
-$execute if function api:private/condition/entity/object/is_transmitter_form_single as @e[type=item_display] if score @s id.object = #storage.first_linked_object.id V run return run data modify entity @s data.control_data.process.$(type).transmitter prepend from storage exo main.instance.value.id
-$execute if function api:private/condition/entity/object/is_transmitter_form_multiple as @e[type=item_display] if score @s id.object = #storage.first_linked_object.id V run return run data modify entity @s data.control_data.process.$(type).transmitter append from storage exo main.instance.value.id
+$data modify storage exo main.instance.transmitter.last.data.control_data.storage.$(type).transmitter prepend from storage exo main.instance.value.id
+$execute if function api:private/condition/entity/object/is_transmitter_form_single run data modify storage exo main.instance.transmitter.first.data.control_data.process.$(type).transmitter prepend from storage exo main.instance.value.id
+$execute if function api:private/condition/entity/object/is_transmitter_form_multiple run data modify storage exo main.instance.transmitter.first.data.control_data.process.$(type).transmitter append from storage exo main.instance.value.id
+function main:core/entity/player/data/process/pick/logic/transmitter/shared/place/logic/end

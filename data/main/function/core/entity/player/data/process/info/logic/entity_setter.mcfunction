@@ -1,3 +1,4 @@
 tag @s remove new
+execute if score #info.check V matches 0 at @s run tp ~-0.5 ~ ~-0.5
 scoreboard players operation @s id.matched = #id.player V
-data modify entity @s data.info_data set from storage exo main.instance.storage.data.looking_object.data.info_data
+scoreboard players operation @s id.matched.link = #storage.looking_object.id V

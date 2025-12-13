@@ -1,1 +1,0 @@
-$execute if score #origin.control.$(type).boolean V matches 1 if score #origin.control.storage.$(type).save V < #origin.control.$(type).save V run function main:core/entity/object/generator/logic/generating {type:"$(type)"}

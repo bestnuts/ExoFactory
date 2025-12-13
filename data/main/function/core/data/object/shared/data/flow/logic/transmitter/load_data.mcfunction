@@ -1,0 +1,2 @@
+execute store result score #id.transmitter.first_linked V run data get storage exo main.instance.transmitter.data.linked.[0]
+execute store result score #id.transmitter.last_linked V run data get storage exo main.instance.transmitter.data.linked.[1]

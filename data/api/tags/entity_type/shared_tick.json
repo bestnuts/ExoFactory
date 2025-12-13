@@ -2,8 +2,8 @@
     "values": [
         "player",
         "marker",
+        "text_display",
         "item",
-        "item_display",
         "interaction"
     ]
 }

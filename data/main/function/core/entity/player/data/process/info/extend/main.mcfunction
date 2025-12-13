@@ -9,5 +9,6 @@ scoreboard players operation #storage.looking_object.id V = #player.looking_obje
 
 execute unless score @s id.object = #player.looking_object.id V run return 1
 
-execute if entity @s[tag=entity.item] run data modify storage exo main.instance.storage.data.looking_object.data set from entity @s item.components.minecraft:custom_data.data.info_data
-execute if entity @s[tag=entity.object] run data modify storage exo main.instance.storage.data.looking_object.data set from entity @s data
+execute if entity @s[tag=entity.item] run return run data modify storage exo main.instance.storage.data.looking_object.data set from entity @s item.components.minecraft:custom_data.data.info_data
+function main:core/data/object/shared/io/get_data {getter:"scoreboard players get @s id.object",path:"data"}
+execute if entity @s[tag=entity.object] run data modify storage exo main.instance.storage.data.looking_object.data set from storage exo main.instance.data

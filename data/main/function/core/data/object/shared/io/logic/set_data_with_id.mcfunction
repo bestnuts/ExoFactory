@@ -1,0 +1,1 @@
+$data modify storage exo main.data.[{id:$(id)}].data set from storage exo main.instance.$(path)

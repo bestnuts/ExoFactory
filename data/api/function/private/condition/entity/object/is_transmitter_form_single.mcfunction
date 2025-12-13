@@ -1,1 +1,1 @@
-return run execute if data entity @s {data:{control_data:{form:"single"}}}
+return run execute if data storage exo {main:{instance:{transmitter:{data:{form:"single"}}}}}

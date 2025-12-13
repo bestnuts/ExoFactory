@@ -1,0 +1,1 @@
+$data remove storage exo main.data.[{id:$(id)}]
