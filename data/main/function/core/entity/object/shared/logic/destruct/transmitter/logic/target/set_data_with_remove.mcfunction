@@ -1,0 +1,2 @@
+$data remove storage exo main.instance.target.data.control_data.$(path).$(type).transmitter.[$(index)]
+function main:core/data/object/shared/io/set_data {getter:"scoreboard players get #id.target V", path:"target.data"}

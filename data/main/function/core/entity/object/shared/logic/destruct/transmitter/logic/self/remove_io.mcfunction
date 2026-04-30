@@ -1,0 +1,2 @@
+$data modify storage exo main.instance.value.parent.list set from storage exo main.instance.data.control_data.$(path).$(type).transmitter
+function main:core/entity/object/shared/logic/destruct/transmitter/logic/shared/setup_remove_target_number

@@ -1,0 +1,1 @@
+function main:core/entity/object/shared/logic/destruct/transmitter/remove_with_type {type:"electric"}
